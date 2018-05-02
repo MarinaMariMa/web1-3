@@ -6,14 +6,15 @@ public class Test : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        for (int i = 3; i >= 0; i--)
+        int sum = 0;
+        for(int i =1; i <= 10; i++)
         {
-            Debug.Log(i);
+            sum += i;
         }
-	}
+        Debug.Log(sum);
+    }
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
-}
